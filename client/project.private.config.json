@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noteClass/noteClass",
+          "pathName": "pages/noteClass/noteClass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noteEdit/noteEdit",
+          "pathName": "pages/noteEdit/noteEdit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

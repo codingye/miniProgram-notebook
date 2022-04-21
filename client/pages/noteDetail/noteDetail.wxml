@@ -1,0 +1,17 @@
+<!-- <view class="note-detail">
+  <text class="title">-{{title}}-</text>
+  <rich-text nodes="{{noteDetail}}" name = "p" class="detail"></rich-text>
+</view> -->
+<view class="note-detail">
+  <view class="note-img">
+    <image src="{{detailData.head_img}}" />
+  </view>
+  <view class="note-content">
+    <view class="tab">
+      <text class="comm note-type">{{detailData.note_type}}</text>
+      <text class="comm nickname">{{detailData.nickname}}</text>
+    </view>
+    <view class="title">-{{detailData.title}}-</view>
+    <rich-text class="content" nodes="{{detailData.note_content}}"></rich-text>
+  </view>
+</view>

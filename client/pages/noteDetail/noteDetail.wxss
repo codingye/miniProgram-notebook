@@ -1,0 +1,71 @@
+/* pages/noteDetail/noteDetail.wxss */
+/* .note-detail{
+  padding: 40rpx;
+  padding-top: 0;
+  background-color: #e8e6e8;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 40rpx;
+  font-family: '宋体';
+}
+.note-detail .title{
+  font-size: 48rpx;
+  font-weight: bold;
+  line-height: 120rpx;
+ 
+} */
+.note-detail{
+  width: 100%;
+  padding-bottom: 60rpx;
+  background-color: #e8e6e8;
+}
+.note-img {
+  width: 100%;
+  height: 386rpx;
+}
+.note-img image{
+  width: 100%;
+  height: 100%;
+}
+.note-content {
+  margin-top: 50rpx;
+  padding: 0 50rpx;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comm {
+  color: rgba(16, 16, 16, 0.7);
+  font-size: 36rpx;
+  text-align: center;
+  font-family: Arial;
+  position: relative;
+  padding-bottom: 4px;
+  border-bottom: 3px solid #e51c23;
+}
+.nickname::before {
+  content: "By";
+  position: absolute;
+  left: -25px;
+  opacity: 0.5;
+  color: rgba(16, 16, 16, 1);
+  font-size: 32rpx;
+  font-family: Arial;
+}
+
+.title {
+  font-family: '宋体';
+  font-size: 48rpx;
+  font-weight: bold;
+  line-height: 120rpx;
+  text-align: center;
+}
+.content {
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 40rpx;
+  font-family: '宋体';
+}

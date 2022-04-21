@@ -1,0 +1,18 @@
+{
+  "pages": [
+    
+    "pages/noteClass/noteClass",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/noteList/noteList",
+    "pages/noteDetail/noteDetail",
+    "pages/noteEdit/noteEdit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "为你写诗",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

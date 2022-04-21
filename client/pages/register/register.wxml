@@ -1,0 +1,27 @@
+<view class="start-login">
+  <view class="title">注册</view>
+
+  <view class="login-wrapper">
+    <view class="avatar">
+      <image mode="widthFix" src="/images/raw_1512446140.jpeg" />
+    </view>
+
+    <view class="input-group">
+      <label for="username">账号</label>
+      <input type="text"  bindblur="usernameVal" />
+    </view>
+
+    <view class="input-group">
+      <label for="password">昵称</label>
+      <input type="password" bindblur="nicknameVal"/>
+    </view>
+
+    <view class="input-group">
+      <label for="password">密码</label>
+      <input type="password" bindblur="userpwdVal"/>
+    </view>
+
+    <view class="sign" bindtap="register">注册</view>
+  </view>
+  <text class="register" bindtap="toLogin">已有账号 ? 返回登入</text>
+</view>
